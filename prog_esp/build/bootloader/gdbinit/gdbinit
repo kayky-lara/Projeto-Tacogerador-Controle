@@ -1,0 +1,2 @@
+source C:/Users/kayky/ESP32_Projects/tcp/build/bootloader/gdbinit/symbols
+source C:/Users/kayky/ESP32_Projects/tcp/build/bootloader/gdbinit/connect

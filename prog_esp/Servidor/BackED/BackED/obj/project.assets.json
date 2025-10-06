@@ -1,0 +1,172 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "MQTTnet/4.3.1.873": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MQTTnet.AspNetCore/4.3.1.873": {
+        "type": "package",
+        "dependencies": {
+          "MQTTnet": "4.3.1.873"
+        },
+        "compile": {
+          "lib/net6.0/MQTTnet.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MQTTnet.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "MQTTnet/4.3.1.873": {
+      "sha512": "5Btmzjv9TWQewlHL6QPB3/deTxAfHf0cR1ixehH/4311oKUpiYrgt1uQZFTbyBWjR7zVKv1U3+s4o3IPm/++Ww==",
+      "type": "package",
+      "path": "mqttnet/4.3.1.873",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/MQTTnet.dll",
+        "lib/net452/MQTTnet.xml",
+        "lib/net461/MQTTnet.dll",
+        "lib/net461/MQTTnet.xml",
+        "lib/net48/MQTTnet.dll",
+        "lib/net48/MQTTnet.xml",
+        "lib/net5.0/MQTTnet.dll",
+        "lib/net5.0/MQTTnet.xml",
+        "lib/net6.0/MQTTnet.dll",
+        "lib/net6.0/MQTTnet.xml",
+        "lib/net7.0/MQTTnet.dll",
+        "lib/net7.0/MQTTnet.xml",
+        "lib/netcoreapp3.1/MQTTnet.dll",
+        "lib/netcoreapp3.1/MQTTnet.xml",
+        "lib/netstandard1.3/MQTTnet.dll",
+        "lib/netstandard1.3/MQTTnet.xml",
+        "lib/netstandard2.0/MQTTnet.dll",
+        "lib/netstandard2.0/MQTTnet.xml",
+        "lib/netstandard2.1/MQTTnet.dll",
+        "lib/netstandard2.1/MQTTnet.xml",
+        "lib/uap10.0.10240/MQTTnet.dll",
+        "lib/uap10.0.10240/MQTTnet.pri",
+        "lib/uap10.0.10240/MQTTnet.xml",
+        "mqttnet.4.3.1.873.nupkg.sha512",
+        "mqttnet.nuspec",
+        "nuget.png"
+      ]
+    },
+    "MQTTnet.AspNetCore/4.3.1.873": {
+      "sha512": "alFZM2hNLEH5jy752ANyIKz/WqEMS9mSE/JosgX2ZIIOPGUfttb62CkP3Mq6baOgg66JS+aqK8mjagWXh3QfiA==",
+      "type": "package",
+      "path": "mqttnet.aspnetcore/4.3.1.873",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/MQTTnet.AspNetCore.dll",
+        "lib/net5.0/MQTTnet.AspNetCore.xml",
+        "lib/net6.0/MQTTnet.AspNetCore.dll",
+        "lib/net6.0/MQTTnet.AspNetCore.xml",
+        "lib/net7.0/MQTTnet.AspNetCore.dll",
+        "lib/net7.0/MQTTnet.AspNetCore.xml",
+        "lib/netcoreapp2.1/MQTTnet.AspNetCore.dll",
+        "lib/netcoreapp2.1/MQTTnet.AspNetCore.xml",
+        "lib/netcoreapp3.1/MQTTnet.AspNetCore.dll",
+        "lib/netcoreapp3.1/MQTTnet.AspNetCore.xml",
+        "lib/netstandard2.0/MQTTnet.AspNetCore.dll",
+        "lib/netstandard2.0/MQTTnet.AspNetCore.xml",
+        "mqttnet.aspnetcore.4.3.1.873.nupkg.sha512",
+        "mqttnet.aspnetcore.nuspec",
+        "nuget.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MQTTnet >= 4.3.1.873",
+      "MQTTnet.AspNetCore >= 4.3.1.873"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\kayky\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\kayky\\ESP32_Projects\\tcp\\Servidor\\BackED\\BackED\\BackED.csproj",
+      "projectName": "BackED",
+      "projectPath": "C:\\Users\\kayky\\ESP32_Projects\\tcp\\Servidor\\BackED\\BackED\\BackED.csproj",
+      "packagesPath": "C:\\Users\\kayky\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kayky\\ESP32_Projects\\tcp\\Servidor\\BackED\\BackED\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\kayky\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MQTTnet": {
+            "target": "Package",
+            "version": "[4.3.1.873, )"
+          },
+          "MQTTnet.AspNetCore": {
+            "target": "Package",
+            "version": "[4.3.1.873, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.428\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

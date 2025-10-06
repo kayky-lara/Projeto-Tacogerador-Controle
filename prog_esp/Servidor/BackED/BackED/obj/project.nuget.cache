@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tHfix923Ndj+XwWYzvmwXMdL4WCpRKnl6Yk4cjYJhJ57ildNztul9q5/5QCoBRMLmO5MDQtyy8aHhVaHlyxuwg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kayky\\ESP32_Projects\\tcp\\Servidor\\BackED\\BackED\\BackED.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kayky\\.nuget\\packages\\mqttnet\\4.3.1.873\\mqttnet.4.3.1.873.nupkg.sha512",
+    "C:\\Users\\kayky\\.nuget\\packages\\mqttnet.aspnetcore\\4.3.1.873\\mqttnet.aspnetcore.4.3.1.873.nupkg.sha512"
+  ],
+  "logs": []
+}
