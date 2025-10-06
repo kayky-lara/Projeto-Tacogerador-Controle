@@ -1,0 +1,11 @@
+# Pastas de compilação do .NET/C#
+obj/
+bin/
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
+
+# Outros arquivos de usuário e temporários
+*.user
+*.suo
